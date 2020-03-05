@@ -1,0 +1,53 @@
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+body{background-color: black;}
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    font-size: 50px;
+}
+
+#left, #right {
+    font-size: 25px;
+    color: red;
+    width: 7%;
+    
+}
+
+#left {
+    margin-left: 43%;
+    margin-top: 10px;
+}
+
+#left {
+    background-color: white; 
+    color:black; 
+    transition-duration: 0.4s;
+   
+  }
+  
+  #left:hover {
+    background-color:rgba(20, 200, 212, 0.507);
+    color: black;
+    
+    
+  }
+
+  #right {
+    background-color: white; 
+    color:black; 
+    transition-duration: 0.4s;
+    
+   
+  }
+  
+  #right:hover {
+    background-color:rgba(20, 200, 212, 0.507);
+    color: black;
+    
+  }
